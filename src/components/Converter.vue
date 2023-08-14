@@ -37,16 +37,8 @@ export default {
   </div>
 </template>
 
-<!-- <style scoped>
-.converter {
-  padding: 20px;
-  max-width: 300px;
-  border-radius: 6px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-</style> -->
-
 <style scoped> .converter {
+   background-color: #ffffff;
    padding: 20px;
    max-width: 300px;
    border-radius: 6px;
