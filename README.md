@@ -1,6 +1,6 @@
 # Currencys Converter
 
-Este é um app feito em Vue JS + VITE que permite ao usuário converter três moedas (Dolar americano, Dolar canadense e Euro) para o real brasileiro e vice versa. Ao digitar um valor clicar no botão "Covert", o aplicativo faz a conversão do valor digitado, utilizando uma API para buscar o valor de conversão monetária atualizada.
+Este é um app feito em Vue JS + VITE que permite ao usuário converter três moedas (Dolar americano, Dolar canadense e Euro) para o real brasileiro e vice versa. Ao digitar um valor e clicar no botão "Covert" correspondente ao campo, o aplicativo faz a conversão do valor digitado, utilizando uma API para buscar o valor de conversão atualizado.
 
 <img width="500px" src="./.github/img/img-2.png" />
 
