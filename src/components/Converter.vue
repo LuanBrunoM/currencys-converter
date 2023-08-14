@@ -19,7 +19,6 @@ export default {
         })
         .then(json => {
           let currencys = this.currencyA + this.currencyB
-          console.log(json[currencys].high)
           let rate = json[currencys].high
           this.currencyB_value = (rate * parseFloat(this.currencyA_value)).toFixed(2)
         });
@@ -38,4 +37,46 @@ export default {
   </div>
 </template>
 
-<style scoped></style>
+<!-- <style scoped>
+.converter {
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+</style> -->
+
+<style scoped> .converter {
+   padding: 20px;
+   max-width: 300px;
+   border-radius: 6px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .converter h2 {
+   font-family: sans-serif;
+   color: #007bff;
+ }
+
+ .converter input {
+   font-family: Arial, sans-serif;
+ }
+
+ .converter input[type=text] {
+   margin-right: 10px;
+   border-radius: 4px;
+ }
+
+ .converter input[type=button] {
+   background-color: #007bff;
+   color: white;
+   padding: 3px 5px;
+   border-radius: 4px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .converter input[type=button]:hover {
+   background-color: #0069d9;
+ }
+</style>
